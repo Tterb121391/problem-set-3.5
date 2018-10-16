@@ -1,0 +1,45 @@
+p {
+  color: red;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.headers {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h1 {
+  color: orchid;
+}
+
+h2 {
+  color: darkgreen;
+}
+
+h3 {
+  color: gold;
+}
+
+h4 {
+  color: mediumturquoise;
+}
+
+li {
+  color: purple;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+table {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+thead {
+  color: sienna;
+}
+
+tbody {
+  color: navy;
+}
+
+tfoot {
+  color: orange;
+}
