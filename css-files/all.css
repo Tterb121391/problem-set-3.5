@@ -3,6 +3,30 @@ p {
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
+.taskbar {
+  background-color: cyan;
+  margin: 0;
+  padding: 0;
+}
+
+.taskbarLinks {
+  display: inline-block;
+  padding: 8px;
+}
+
+.taskbarLinks:hover {
+  background-color: gold;
+}
+
+.active {
+  background-color: white;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
 .headers {
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
