@@ -1,6 +1,17 @@
 p {
   color: red;
+}
+
+* {
   font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+div {
+  color: red;
+}
+
+div[class="purpled"] {
+  color: purple;
 }
 
 .taskbar {
@@ -27,8 +38,16 @@ a {
   text-decoration: none;
 }
 
-.headers {
-  font-family: "Comic Sans MS", cursive, sans-serif;
+a[id="exception"] {
+  display: inline;
+}
+
+#exception:link {
+  color: green;
+}
+
+#exception:visited {
+  color: cyan;
 }
 
 h1 {
@@ -60,10 +79,72 @@ thead {
   color: sienna;
 }
 
-tbody {
+td {
   color: navy;
 }
 
-tfoot {
+tfoot td {
   color: orange;
+}
+
+ol > li {
+  font-weight: 1000;
+}
+
+ul#golden > li {
+  color: gold;
+}
+
+#borderedImage {
+  border: blue 3px solid;
+}
+
+#roundedImage {
+  border: blue 3px dotted;
+  border-radius: 7px;
+}
+
+#interesting {
+  font-variant: small-caps;
+}
+
+li[class] {
+  font-size: 20px;
+}
+
+a[href="mailto:info@example.com"] {
+  font-style: oblique;
+}
+
+img {
+  height: 350px;
+  width: 550px;
+}
+
+.longer {
+  width: 800px;
+}
+
+body {
+  background-color: BurlyWood;
+}
+
+table, th, td {
+  border: black 2px dotted;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: cyan;
+}
+
+tbody {
+  background-color: gold;
+}
+
+tfoot {
+  background-color: navy;
 }
